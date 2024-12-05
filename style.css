@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.profile-picture {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0px 1px rgb(16, 227, 192);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.personal-data {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: rgb(16, 227, 192);
+}
+h2 {
+  color: rgb(16, 227, 192);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.experiencie-item {
+  background-color: #2f0086;
+  padding: 10px;
+  border-left: 4px solid rgb(16, 227, 192);
+  border-radius: 10%;
+}
+.experiencie-item:hover {
+  background-color: rgb(16, 227, 192);
+}
+.experiencie {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+input,
+textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2f0086;
+  color: white;
+}
+
+button {
+  background-color: #2f0086;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(16, 227, 192);
+}
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(16, 227, 192);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #2f0086;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20%;
+}
+.item {
+  display: flex;
+  color: white;
+  cursor: pointer;
+}
+
+.item:hover {
+  text-decoration: underline;
+}
+footer {
+  margin-top: 20px;
+  cursor: pointer;
+}
+footer:hover {
+  text-decoration: underline;
+}
+
+td,
+th {
+  border: 1px solid blue;
+}
+
+table {
+  width: 80%;
+  font-size: 20px;
+  background-color: aqua;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
